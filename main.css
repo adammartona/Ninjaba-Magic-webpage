@@ -1,0 +1,355 @@
+@font-face { font-family: Linotte-Bold; src: url('Linotte-Bold.otf'); } 
+@font-face { font-family: FiraSans-LightItalic; src: url('FiraSans-LightItalic.otf'); }
+* {
+margin:0;
+border:0;
+padding:0;
+}
+body {
+color:white;
+margin:0;
+font:Linotte-bold,FiraSans-LightItalic;
+background-color:#777;
+}
+img{
+max-width:100%;
+}
+header{
+background-color:white;
+opacity:0.8;
+width:100%;
+height:50px;
+position:fixed;
+top:0;
+left:0;
+z-index:100;
+
+}
+.logo1 {
+margin-left:3%;
+margin-right:3%;
+float:left;
+max-width:100%;
+max-height:100%;
+}
+.language_button_hun {
+margin-top:5px;
+margin-bottom:10px;
+margin-right:15%;
+margin-left:8%;
+float:right;
+width:28px;
+height:40px;
+}
+.language_button_eng{
+margin-top:5px;
+margin-left:30%;
+float:right;
+width:28px;
+height:40px;
+
+}
+.menuicon {
+padding-top:6px;
+cursor: pointer;
+background:white;
+float:right;
+box-sizing:border-box;
+display:none;
+padding-left:15px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+opacity: 0;
+}
+
+.change .bar3 {
+-webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+}
+nav{
+float:right;
+position:relative;
+padding-left: 0px;
+}
+ul {
+display:inline-block;
+list-style:none;
+font-family:Linotte-Bold;
+}
+
+ul li {
+float:left;
+}
+
+ul li a {
+text-decoration: none;
+text-align: center;
+color: black;
+display:block;
+padding-top:1.9vh;
+padding-bottom:1.9vh;
+font-size:1.3vw;
+padding-left:1vw;
+padding-right:1vw;
+background-color:none;
+
+}
+
+ul li a:hover {
+background-color:#999;
+text-decoration: none;
+text-align: center;
+color: black;
+}
+
+.mySlides{
+	max-width:100%;
+	width:auto;
+	position:absolute;
+	left:-100%; right:-100%;
+	margin:auto;
+	margin-top:-40px;
+	padding-bottom:0px;
+}
+.aboutCsababackground{
+margin-top:45%;
+}
+.aboutCsaba h1 {
+margin-top:-45%;
+padding-left:45px;
+font-family:Linotte-Bold;
+font-size:2vw;
+color:white;
+}
+.aboutCsaba p{
+height:40vw;
+width:400px;
+padding-bottom:10%;
+overflow:auto;
+font-family:firaSans-LightItalic;
+padding-left:50px;
+}
+.kidsshowtext h1{
+margin-top:-45%;
+color:white;
+padding-left:45px;
+font-family:Linotte-Bold;
+font-size:2vw;
+color:white;
+}
+.kidsshowtext p{
+color:white;
+height:40vw;
+width:400px;
+border:3px solid #ccc white;
+overflow:auto;
+font-family:firaSans-LightItalic;
+padding-left:50px;
+}
+.stagemagictext h1{
+margin-top:-45%;
+padding-left:45px;
+font-family:Linotte-Bold;
+font-size:2vw;
+color:white;
+}
+.stagemagictext p{
+height:40vw;
+width:400px;
+border:3px solid #ccc white;
+overflow:auto;
+font-family:firaSans-LightItalic;
+padding-left:50px;
+}
+
+.closeuptext{
+position:absolute;
+background-image:url("image_close_up.png")
+}
+.closeuptext h1{
+padding-top:37%;
+padding-bottom:-20%;
+padding-left:45px;
+font-family:Linotte-Bold;
+font-size:2vw;
+color:white;
+}
+.closeuptext p{
+padding-top:-96%;
+height:40vw;
+width:400px;
+border:3px solid #ccc white;
+overflow:auto;
+font-family:firaSans-LightItalic;
+padding-left:50px;
+
+}
+.soulmagictext{
+background-image:url("image_soul_magic.png");
+}
+.soulmagictext h1{
+margin-top:-75%;
+padding-left:45px;
+font-family:Linotte-Bold;
+font-size:25px;
+margin-top:-30%;
+}
+.soulmagictext p{
+font-family:firaSans-LightItalic;
+overflow:auto;
+color:white;
+}
+.mentalshowtext{
+background-image: url ("image_mental_show.png");
+}
+.mentalshowtext h1{
+font-family:firaSans-LightItalic;
+padding-left:45px;
+width:700px;
+border:3px solid #ccc white;
+overflow:auto;
+}
+.mentalshowtext p{
+font-family:firaSans-LightItalic;
+padding-left:45px;
+width:700px;
+border:3px solid #ccc white;
+overflow:auto;
+color:white;
+}
+
+.footertext h1{
+padding-left:45px;
+font-family:Linotte-Bold;
+font-size:25px;
+margin-top:-30%;
+}
+.footertext p{
+font-family:firaSans-LightItalic;
+padding-left:45px;
+width:700px;
+border:3px solid #ccc white;
+overflow:auto;
+}
+
+.signo{
+width:15%;
+height:15%;
+padding-left:4%;
+margin-top:2%;
+}
+
+.insta{
+margin-left:75%;
+margin-top:-1%;
+}
+.fb{
+margin-left:79%;
+margin-top:-2.8%;
+}
+.yt{
+margin-left:83%;
+margin-top:-1%;
+}
+.telefon{
+margin-left:87%;
+margin-top:-1%;
+}
+.copyrights{
+margin-left:35%;
+size:4%;
+margin-top:-20px;
+}
+.felso img{
+display:none;
+
+}
+
+
+@media (max-width:1000px){
+.felso img{
+
+display:block;
+}
+ul li a{
+background-color:white;
+opacity:0.8;
+margin:0px;
+padding-right:30vw;
+padding-left:30vw;
+font-size:100%;
+padding-top:2px;
+display:none;
+}
+header{
+padding-bottom:0px;
+margin-top:0px;
+
+}
+.language_button_eng{
+	display:none;
+}
+.language_button_hun{
+	display:none;
+}
+.menuicon{
+display:block;
+margin-right:15px;
+}
+ul li{
+width:100%;
+
+}
+.mySlides{
+max-width:100%;
+width:auto;
+left:-100%; right:-100%;
+padding-bottom:0px;
+
+}
+.aboutCsababackground{
+
+margin-top:200%;
+}
+.aboutCsaba{
+font-size:2vw;
+margin-top:-60%;
+padding-right:5vw;
+padding-left:5vw;
+padding-bottom:5vw;
+padding-top:5vw;
+color:black;
+}
+.aboutCsaba h1{
+margin-top:-165%;
+color:black;
+font-size:6vw;
+}
+.aboutCsaba p{
+overflow:scroll;
+height:88vh;
+
+}
+body{
+background-color:white;
+}
+.active{
+}
+
+}
+
+
